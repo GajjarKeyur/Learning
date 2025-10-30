@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TodoList from './components/TodoList.vue'
+// App-level script not needed currently
 </script>
 
 <template>
-  <TodoList />
+  <router-view />
 </template>
 
 <style scoped>
